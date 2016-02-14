@@ -7,10 +7,11 @@
     <meta name="author" content="">
     <link rel="shortcut icon" href="assets/ico/favicon.png">
 
-    <title>Onassis - Bootstrap 3 Theme</title>
+    <title>Koridor</title>
 
     <!-- Bootstrap core CSS -->
     <link href="assets/css/bootstrap.css" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/animate.css">
 
     <!-- Custom styles for this template -->
     <link href="assets/css/main.css" rel="stylesheet">
@@ -32,26 +33,26 @@
     <![endif]-->
   </head>
 
-  <body data-spy="scroll" data-offset="0" data-target="#theMenu">
+  <body>
 		
 	<!-- Menu -->
 	<nav class="menu" id="theMenu">
 		<div class="menu-wrap">
-			<h1 class="logo"><a href="index.html#home">Onassis</a></h1>
-			<i class="icon-remove menu-close"></i>
-			<a href="#home" class="smoothScroll">Home</a>
-			<a href="#services" class="smoothScroll">Services</a>
+			<h1 class="logo"><a href="index.html#home">Koridor</a></h1>
+			<i class="fa fa-close menu-close"></i>
+			<a href="#home" class="smoothScroll">Accueil</a>
+			<a href="#services" class="smoothScroll">Nos services</a>
 			<a href="#portfolio" class="smoothScroll">Portfolio</a>
-			<a href="#about" class="smoothScroll">About</a>
-			<a href="#contact" class="smoothScroll">Contact</a>
-			<a href="#"><i class="icon-facebook"></i></a>
-			<a href="#"><i class="icon-twitter"></i></a>
-			<a href="#"><i class="icon-dribbble"></i></a>
-			<a href="#"><i class="icon-envelope"></i></a>
+			<a href="#about" class="smoothScroll">Nos réalisations</a>
+			<a href="#contact" class="smoothScroll">A propos</a>
+			<a href="#" class="smoothscroll">Nous contacter</a>
+			<a href="#"><i class="fa fa-facebook fa-4x"></i></a>
+			<a href="#"><i class="fa fa-twitter fa-4x"></i></a>
+			<a href="#"><i class="fa fa-instagram fa-4x"></i></a>
 		</div>
 		
 		<!-- Menu button -->
-		<div id="menuToggle"><i class="icon-reorder"></i></div>
+		<div id="menuToggle" class=""><i class="fa fa-bars"></i></div>
 	</nav>
 
 
@@ -59,10 +60,12 @@
 	<!-- ========== HEADER SECTION ========== -->
 	<section id="home" name="home"></section>
 	<div id="headerwrap">
+		<div class="koridor-overlay"></div>
 		<div class="container">
 			<br>
-			<h1>Onassis</h1>
-			<h2>Free Bootstrap 3 Theme</h2>
+			<img src="./assets/img/banner03.png" alt="" class="img-responsive img-center">
+			<h2>PASSION  <span class="fa fa-certificate animated delay-5s rubberBand"></span>  CRÉATIVITÉ  <span class="fa fa-certificate animated delay-5s jello"></span>  INNOVATION
+</h2>
 			<div class="row">
 				<br>
 				<br>
@@ -79,8 +82,7 @@
 		<div class="container">
 			<div class="row">
 				<div class="col-lg-8 col-lg-offset-2">
-				<h3>WELCOME TO <bold>ONASSIS</bold>. <bold>A FREE BOOTSTRAP 3</bold> THEME. CRAFTED WITH LOVE BY <bold>BLACKTIE.CO</bold>. <br/>
-					<bold>IDEAL FOR</bold> AGENCIES & FREELANCERS.
+				<h3>Nous sommes <bold>KORIDOR</bold>. L'Agence de Communication <bold>leader au Gabon</bold>. Notre <bold>spécialité</bold> est de <bold>vous</bold> offrir le <bold>meilleur résultat</bold>. 
 				</h3>
 				</div>
 			</div>
@@ -92,200 +94,141 @@
 	<div id="g">
 		<div class="container">
 			<div class="row">
-				<h3>OUR SERVICES</h3>
+				<h3>NOS SERVICES</h3>
 				<br>
 				<br>
-				<div class="col-lg-3">
-					<img src="assets/img/s1.png">
-					<h4>London</h4>
-					<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever.</p>
+				<div class="row">
+					<div class="col-md-3">
+						<span class="icon-services"><i class="fa fa-group fa-4x"></i></span>
+						<h4>Stratégie de communication</h4>
+						<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever.</p>
+					</div>
+					<div class="col-md-3">
+						<span class="icon-services"><i class="fa fa-4x fa-cube"></i></span>
+						<h4>Conception et impression numérique</h4>
+						<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever.</p>
+					</div>
+					<div class="col-md-3">
+						<span class="icon-services"><i class="fa fa-book fa-4x"></i></span>
+						<h4>Formation à la carte</h4>
+						<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever.</p>
+					</div>
+					<div class="col-md-3">
+						<span class="icon-services"><i class="fa fa-briefcase fa-4x"></i></span>
+						<h4>Conseil marketing</h4>
+						<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever.</p>
+					</div>
 				</div>
-				<div class="col-lg-3">
-					<img src="assets/img/s2.png">
-					<h4>Berlin</h4>
-					<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever.</p>
-				</div>
-				<div class="col-lg-3">
-					<img src="assets/img/s3.png">
-					<h4>Paris</h4>
-					<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever.</p>
-				</div>
-				<div class="col-lg-3">
-					<img src="assets/img/s4.png">
-					<h4>Tokyo</h4>
-					<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever.</p>
+				<div class="row">
+					<div class="col-md-3">
+							<span class="icon-services"><i class="fa fa-fax fa-4x"></i></span>
+							<h4>Relation presse</h4>
+							<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever.</p>
+						</div>
+						<div class="col-md-3">
+							<span class="icon-services"><i class="fa fa-compass fa-4x"></i></span>
+							<h4>Suivi des piges</h4>
+							<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever.</p>
+						</div>
+						<div class="col-md-3">
+							<span class="icon-services"><i class="fa fa-diamond fa-4x"></i></span>
+							<h4>Gestion évènementiel</h4>
+							<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever.</p>
+						</div>
+						<div class="col-md-3">
+							<span class="icon-services"><i class="fa fa-life-buoy fa-4x"></i></span>
+							<h4>Coaching personnalisé</h4>
+							<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever.</p>
+						</div>
 				</div>
 			</div>
 		</div><!-- /container -->
 	</div><!-- /g -->
 	
-	<!-- ========== CHARTS - DARK GREY SECTION ========== -->
-	<div id="dg">
-		<div class="container">
-			<div class="row">
-				<h3>SOME CHARTS</h3>
-				<br>
-				<br>
-				<div class="col-lg-4">
-					<canvas id="javascript" height="130" width="130"></canvas>
-					<br>
-					<h4>Javascript</h4>
-					<br>
-					<script>
-						var doughnutData = [
-								{
-									value: 70,
-									color:"#f85c37"
-								},
-								{
-									value : 30,
-									color : "#ecf0f1"
-								}
-							];
-							var myDoughnut = new Chart(document.getElementById("javascript").getContext("2d")).Doughnut(doughnutData);
-					</script>
-
-				</div>
-				<div class="col-lg-4">
-					<canvas id="bootstrap" height="130" width="130"></canvas>
-					<br>
-					<h4>Bootstrap</h4>
-					<br>
-					<script>
-						var doughnutData = [
-								{
-									value: 90,
-									color:"#f85c37"
-								},
-								{
-									value : 10,
-									color : "#ecf0f1"
-								}
-							];
-							var myDoughnut = new Chart(document.getElementById("bootstrap").getContext("2d")).Doughnut(doughnutData);
-					</script>
-				</div>
-				<div class="col-lg-4">
-					<canvas id="wordpress" height="130" width="130"></canvas>
-					<br>
-					<h4>Wordpress</h4>
-					<br>
-					<script>
-						var doughnutData = [
-								{
-									value: 55,
-									color:"#f85c37"
-								},
-								{
-									value : 45,
-									color : "#ecf0f1"
-								}
-							];
-							var myDoughnut = new Chart(document.getElementById("wordpress").getContext("2d")).Doughnut(doughnutData);
-					</script>
-				</div>
-			
-			</div>	
-		</div><!-- /container -->
-	</div><!-- /dg -->
 	
-	<section id="portfolio" name="portfolio"></section>
-	<div id="portfoliowrap">
-		<div class="container">
-			<div class="row">
-				<h3>COOL WORKS</h3>
-				<br>
-				<br>
-				<div class="col-lg-4 port-space">
-					<a href="item.html"><img src="assets/img/work1.png"></a>
-				</div>
-				<div class="col-lg-4 port-space">
-					<a href="item.html"><img src="assets/img/work2.png"></a>
-				</div>
-				<div class="col-lg-4 port-space">
-					<a href="item.html"><img src="assets/img/work3.png"></a>
-				</div>				
-			</div>	
-		</div><!-- /container -->
-	</div><!-- /portfoliowrap -->
 	
 	<!-- ========== WHITE SECTION ========== -->
-	<div id="w">
+	<div id="w" class="white-section">
+		<div class="overlay-dark"></div>
 		<div class="container">
 			<div class="row">
 				<div class="col-lg-8 col-lg-offset-2">
-				<h3>WE WORK HARD TO DELIVER A <bold>HIGH QUALITY SERVICE</bold>. OUR AIM IS YOUR COMPLETE <bold>SATISFACTION</bold>.
-				</h3>
+					<h3><i class="fa fa-quote-left text-primary"></i> Nous travaillons dur pour vous donner <bold>la meilleure qualité de service</bold>. Notre but est votre complète <bold>satisfaction</bold>. <i class="fa fa-quote-right text-primary"></i>
+					</h3>
 				</div>
 			</div>
 		</div><!-- /container -->
 	</div><!-- /w -->
+	<section id="w">
+		<div class="container">
+			<div class="row">
+				<h3>Nos dernières réalisations</h3>
+				<div class="portfolio-box">
+					<div class="col-md-3 col-sm-6">
+						<div class="portfolio-item">
+							<img src="assets/img/portfolio/108.jpg" alt="" class="img-responsive">
+							<div class="caption">
+								<p>
+									Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque consequat orci purus.
+								</p>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-3 col-sm-6">
+						<div class="portfolio-item">
+							<img src="assets/img/portfolio/109.jpg" alt="" class="img-responsive">
+							<div class="caption">
+								<p>
+									Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque consequat orci purus.
+								</p>
+							</div>
+						</div>
+					</div>
+					<!-- Add the extra clearfix for only the required viewport -->
+  					<div class="clearfix hidden-md hidden-lg"></div>
+
+					<div class="col-md-3 col-sm-6">
+						<div class="portfolio-item">
+							<img src="assets/img/portfolio/110.jpg" alt="" class="img-responsive">
+							<div class="caption">
+								<p>
+									Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque consequat orci purus.
+								</p>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-3 col-sm-6">
+						<div class="portfolio-item">
+							<img src="assets/img/portfolio/109.jpg" alt="" class="img-responsive">
+							<div class="caption">
+								<p>
+									Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque consequat orci purus.
+								</p>
+							</div>
+						</div>
+					</div>
+				</div>
+
+			</div>
+			<span class="text-center block mt-10"><a href="#" class="btn btn-primary">Voir toutes nos réalisations</a></span>
+		</div>
+	</section>
 	
 	<!-- ========== ABOUT - GREY SECTION ========== -->
 	<section id="about" name="about"></section>
 	<div id="g">
 		<div class="container">
 			<div class="row">
-				<h3>ABOUT US</h3>
+				<h3>A PROPOS DE NOUS</h3>
 				<br>
 				<br>
 				<div class="col-lg-2"></div>
 				<div class="col-lg-8">
-				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce lectus elit, tincidunt nec turpis sed, accumsan iaculis ipsum. Nulla at augue auctor, tristique erat in, ultricies nunc. Mauris eget metus leo. Ut in mi lacinia, mattis nisl non, ultrices risus. Vestibulum aliquet aliquam ipsum ut ullamcorper. Pellentesque fringilla, massa vel rutrum consequat, nulla velit fermentum dolor, sed scelerisque.</p>
+				<p>Créée en 2011, l'agence de Communication KORIDOR se positionne dans le domaine de la communication stratégique. Elle possède une véritable expertise en matière de stratégie de communication, en particulier dans la création et la valorisation de l'image d'une société, d'une institution et d'un évènement.
+Elle propose des stratégies de communication et met en place des campagnes de relations publiques, relations presse adaptées afin d'optimiser l'image, les réseaux et la médiatisation de ses clients.</p>
+				<p><a href="#" class="btn btn-primary">En savoir plus</a></p>
 				<br>
 				<br>
-				</div>
-				<div class="col-lg-2"></div>
-				<div class="col-lg-3 team">
-					<img class="img-circle" src="assets/img/team01.jpg" height="90" width="90">
-					<h4>Liz Stewart</h4>
-					<h5><i>Product Manager</i></h5>
-					<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
-					<p>
-						<a href="index.html#"><i class="icon-facebook"></i></a>
-						<a href="index.html#"><i class="icon-twitter"></i></a>
-						<a href="index.html#"><i class="icon-envelope"></i></a>
-
-					</p>
-				</div>
-
-				<div class="col-lg-3 team">
-					<img class="img-circle" src="assets/img/team02.jpg" height="90" width="90">
-					<h4>Brad Casey</h4>
-					<h5><i>Front-end Developer</i></h5>
-					<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
-					<p>
-						<a href="index.html#"><i class="icon-facebook"></i></a>
-						<a href="index.html#"><i class="icon-twitter"></i></a>
-						<a href="index.html#"><i class="icon-envelope"></i></a>
-
-					</p>
-				</div>
-
-				<div class="col-lg-3 team">
-					<img class="img-circle" src="assets/img/team03.jpg" height="90" width="90">
-					<h4>Pamela Chow</h4>
-					<h5><i>Web Designer</i></h5>
-					<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
-					<p>
-						<a href="index.html#"><i class="icon-facebook"></i></a>
-						<a href="index.html#"><i class="icon-twitter"></i></a>
-						<a href="index.html#"><i class="icon-envelope"></i></a>
-
-					</p>
-				</div>
-
-				<div class="col-lg-3 team">
-					<img class="img-circle" src="assets/img/team04.jpg" height="90" width="90">
-					<h4>Tim Gates</h4>
-					<h5><i>Back-end Guru</i></h5>
-					<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
-					<p>
-						<a href="index.html#"><i class="icon-facebook"></i></a>
-						<a href="index.html#"><i class="icon-twitter"></i></a>
-						<a href="index.html#"><i class="icon-envelope"></i></a>
-
-					</p>
 				</div>
 			</div>
 		</div><!-- /container -->
@@ -296,26 +239,26 @@
 	<div id="f">
 		<div class="container">
 			<div class="row">
-					<h3><b>CONTACT US</b></h3>
+					<h3><b>NOUS CONTACTER</b></h3>
 					<br>
 					<div class="col-lg-4">
-						<h3><b>Send Us A Message:</b></h3>
-						<h3>onassis@blacktie.co</h3>
+						<h3><b>Envoyez nous un message:</b></h3>
+						<h3>contact@koridor.com</h3>
 						<br>
 					</div>
 					
 					<div class="col-lg-4">	
-						<h3><b>Call Us:</b></h3>
-						<h3>+55 3984-4389</h3>
+						<h3><b>Appelez nous:</b></h3>
+						<h3>+241 00 00 00 00</h3>
 						<br>
 					</div>
 					
 					<div class="col-lg-4">
-						<h3><b>We Are Social</b></h3>
+						<h3><b>Nous sommes sociaux</b></h3>
 						<p>
-							<a href="index.html#"><i class="icon-facebook"></i></a>
-							<a href="index.html#"><i class="icon-twitter"></i></a>
-							<a href="index.html#"><i class="icon-envelope"></i></a>
+							<a href="index.html#"><i class="fa fa-facebook fa-3x"></i></a>
+							<a href="index.html#"><i class="fa fa-twitter fa-3x"></i></a>
+							<a href="index.html#"><i class="fa fa-instagram fa-3x"></i></a>
 						</p>
 						<br>
 					</div>
@@ -323,10 +266,48 @@
 			</div>
 		</div><!-- /container -->
 	</div><!-- /f -->
-	
+	<footer>
+		<div class="container">
+			<div class="row">
+				<div class="col-md-4 col-sm-6">
+					<h3>Notre entreprise</h3>
+					<ul class="nav">
+						<li><a href="#">L'agence Koridor</a></li>
+						<li><a href="#">Notre mission</a></li>
+						<li><a href="#">Nos compétences</a></li>
+						<li><a href="#">Organigramme</a></li>
+						<li><a href="#">Nous contacter</a></li>
+					</ul>
+				</div>
+				<div class="col-md-4 col-sm-6">
+					<h3>Nos services</h3>
+					<ul class="nav">
+						<li><a href="#">Stratégie De communication</a></li>
+						<li><a href="#">Relation Presse</a></li>
+						<li><a href="#">Suivi Des Piges</a></li>
+						<li><a href="#">Evènementiel</a></li>
+						<li><a href="#">Formation À La Carte</a></li>
+						<li><a href="#">Coaching Personnalisé</a></li>
+					</ul>
+				</div>
+				<div class="col-md-4 col-sm-6">
+					<h3>Dernières réalisations</h3>
+					<ul class="nav">
+						<li><a href="#">Evènements</a></li>
+						<li><a href="#">Affiches</a></li>
+						<li><a href="#">Supports Papiers</a></li>
+						<li><a href="#">Textiles</a></li>
+						<li><a href="#">Goodies</a></li>
+						<li><a href="#">Le Commercial</a></li>
+					</ul>
+				</div>
+				<div class="col-md-3"></div>
+			</div>
+		</div>
+	</footer>
 	<div id="c">
 		<div class="container">
-			<p>Created by <a href="http://www.blacktie.co">BLACKTIE.CO</a></p>
+			<p>© <a href="#">KORIDOR</a> - 2016</p>
 		
 		</div>
 	</div>
@@ -336,7 +317,6 @@
     <!-- Bootstrap core JavaScript
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
-	<script src="assets/js/classie.js"></script>
     <script src="assets/js/bootstrap.min.js"></script>
     <script src="assets/js/smoothscroll.js"></script>
 	<script src="assets/js/main.js"></script>
