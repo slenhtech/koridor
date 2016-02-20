@@ -133,6 +133,16 @@ a:after {
 	letter-spacing: 2px;
 }
 @media (max-width: 1280px) {
+
+	/*
+	#headerwrap h2 > span {
+		display: block;
+	}*/
+	#headerwrap h2 {
+		font-size: 35px;
+	}
+}
+@media (max-width: 1024px) {
 	#headerwrap h2 > span {
 		display: block;
 	}
@@ -280,7 +290,9 @@ footer h3 {
 #w bold {
 	color: #EE5500;
 }
-
+.special-title {
+	margin: 20px 0;
+}
 
 /* Grey Wrap */
 
@@ -290,7 +302,16 @@ footer h3 {
 	padding-bottom: 35px;
 	text-align: center;
 }
-
+#g.no-align {
+	text-align: inherit;
+}
+textarea {
+	resize: vertical;
+}
+#g input,
+#g textarea {
+	border-radius: 0;
+}
 /* Dark Grey Wrap */
 #dg {
 	background: #e0e0e0;
@@ -593,7 +614,37 @@ footer h3 {
 .img-center {
 	margin: 80px auto 60px auto;
 }
-
+.img-center-md {
+	margin: 20px auto 20px auto;
+	max-width: 480px;
+}
+hr.sweet-line {
+	border-color: #EE5500;
+}
+#g.white-section {
+	background: #fff;
+}
+.no-text-align {
+	text-align: inherit;
+}
+hr.sweet-line:after {
+	content: '';
+	display: block;
+	margin: 0 auto;
+	width: 320px;
+	border-top: 4px solid #EE5500;
+}
+.text-uppercase {
+	text-transform: uppercase;
+}
+.apropos-sub .col-md-6 img {
+	max-width: 100%;
+	min-width: 100%;
+	height: auto;
+	min-height: 250px;
+	max-height: 250px;
+	margin: 20px 0;
+}
 .icon-services {
 	display: inline-block;
 	padding: 20px;
@@ -628,4 +679,9 @@ footer h3 {
 }
 .btn-primary:hover{
 	background: #e0e0e0;
+}
+.tinyheader {
+	position: relative;
+	height: 120px;
+	background: #fff;
 }
